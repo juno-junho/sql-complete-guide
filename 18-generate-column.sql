@@ -27,10 +27,10 @@ CREATE TABLE employers(
 
 CREATE TABLE conversations(
     -- id INT PRIMARY KEY AUTO_INCREMENT,
-    id SERIAL PRIMARY KEY,
+    id SERIAL PRIMARY KEY, 
     user_id INT,
     employer_id INT,
-    message TEXT NOT NULL,
+    message TEXT NOT NULL, 
     date_sent TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
