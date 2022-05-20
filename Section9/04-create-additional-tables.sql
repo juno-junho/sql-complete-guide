@@ -1,6 +1,6 @@
 CREATE TABLE customers(
     -- for mysql use this code
-    -- id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     -- for postgresql use this code
     -- id SERIAL PRIMARY KEY,
     first_name VARCHAR(200),
@@ -10,7 +10,7 @@ CREATE TABLE customers(
 
 CREATE TABLE orders(
     -- for mysql use this code
-    -- id INT PRIMARY KEY AUTO_INCREMENT,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     -- for postgresql use this code
     -- id SERIAL PRIMARY KEY,
     amount_billed NUMERIC(5, 2),
