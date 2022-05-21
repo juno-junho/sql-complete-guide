@@ -9,4 +9,10 @@ VALUES(
     'white@test.com'
 );
 
-SAVEPOINT save_1;
+INSERT INTO orders(
+    amount_billed,
+    customer_id 
+)
+VALUES(
+    103.12
+);
