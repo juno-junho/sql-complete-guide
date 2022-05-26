@@ -1,0 +1,6 @@
+"QUERY PLAN"
+"Seq Scan on addresses  (cost=0.00..1.09 rows=1 width=1136) (actual time=0.452..0.457 rows=3 loops=1)"
+"  Filter: (((street)::text = 'Teststreet'::text) AND ((city)::text = 'Munich'::text))"
+"  Rows Removed by Filter: 3"
+"Planning Time: 2.301 ms"
+"Execution Time: 0.496 ms"
