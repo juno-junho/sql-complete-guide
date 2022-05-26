@@ -1,0 +1,4 @@
+"EXPLAIN"
+"-> Filter: ((addresses.city = 'Munich') and (addresses.street = 'Teststreet'))  (cost=0.85 rows=1) (actual time=0.048..0.058 rows=3 loops=1)
+    -> Table scan on addresses  (cost=0.85 rows=6) (actual time=0.041..0.048 rows=6 loops=1)
+"
